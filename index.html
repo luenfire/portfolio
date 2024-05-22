@@ -7,6 +7,9 @@
     <link rel="icon" type="image/x-icon" href="images\favicon_50_50.png">
     
     <!-- fonts and icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inconsolata&family=Rajdhani:wght@500&family=UnifrakturMaguntia&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/970de1bce6.js" crossorigin="anonymous"></script>
     
@@ -16,15 +19,20 @@
 
     <!-- css -->
     <link rel="stylesheet" href="css/styles.css">
+
+    <!-- js -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="js\my.js"></script>
+    <link rel="script" href="..." />
 </head>
     
 <body class="example">
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top fixed-top">
-        <div class="container-xxl">
-            <div>
-                <a class="navbar-brand" href="">jungwoo "luenfire" lee</a>
-                <a href="mailto:luenfire@outlook.com?Subject=Hello%20User">contact: luenfire@outlook.com</a>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container-fluid">
+            <div class="brand-box">
+                <a class="navbar-brand" href="">JUNGWOO "LUENFIRE" LEE</a>
+                <a class="brand-subtitle nav-link" href="mailto:luenfire@outlook.com?Subject=Hello%20Jung">contact: luenfire@outlook.com</a>
             </div>
             
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -41,27 +49,27 @@
     </nav> 
 
     <section id="first">
-        <div class="container-xxl">
-            <h1>hello, i'm jung.</h1>
-            <h2>
-                i'm an environment designer, illustrator and a storyboard artist based in hawaii.
-            </h2>
-            <a class="btn" href="mailto:luenfire@outlook.com">Contact me.</a>
+        <div class="container-fluid">
+            <h4 class="lead">hey there! i'm jung.</h4>
+            <h1 class="display-3">
+                i'm an environment designer, illustrator and a storyboard artist from new york.
+            </h1>
+            <a class="btn" style="display: none" href="mailto:luenfire@outlook.com?Subject=Hello%20Jung">contact me.</a>
         </div>
     </section>
-
+    
     <img src="images\circle-3.5k.jpg" class="img-fluid" alt="Responsive image">
 
     <!-- Footer -->
     
-    <footer id="footer" class="">
+    <footer id="footer" class="white-section >
     
-        <div class="white-section container-xxl">
+        <div class="white-section container-fluid">
             <p>
-                <i class="footer-i fa-brands fa-twitter"></i>
-                <i class="footer-i fa-brands fa-facebook-f"></i>
-                <i class="footer-i fa-brands fa-instagram"></i>
-                <i class="footer-i fa-solid fa-envelope"></i>
+                <a class="grey" href="https://twitter.com/luenfire"><i class="footer-i fa-brands fa-twitter"></i></a>
+                <a class="grey" href="https://www.artstation.com/luenfire"><i class="footer-i fa-brands fa-artstation"></i></a>
+                <a class="grey" href="https://www.instagram.com/luenfire/"><i class="footer-i fa-brands fa-instagram"></i></a>
+                <a class="grey" href="mailto:luenfire@outlook.com?Subject=Hello%20Jung"><i class="footer-i fa-solid fa-envelope"></i></a>
             </p>
             <p>© copyright luenfire</p>
         </div>

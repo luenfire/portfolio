@@ -11,48 +11,90 @@
 }
 
 body{
-    color: #1a1b1f;
+    color: #e9e9e9;
     text-align: center;
+    background-color: rgb(31, 31, 31);
+    font-family: 'Montserrat', sans-serif;;
+}
+h1{
+    font-weight: 200;
 }
 
-nav{
+.center {
+    text-align: center;
+}
+.navbar {
+    --bs-navbar-toggler-border-radius: 0;
+    --bs-navbar-toggler-focus-width: 0;
+}
+nav {
     display: block;
     background-color: black;
     color: white;
 }
 .nav-item {
     font-weight: 100;
-    padding: 0 18px;
+    width: 130px;
+}
+.navbar-toggler {
+    border: 0;
 }
 
-.container-xxl {
-    padding: 2% 2%;
+.navbar-nav{
+    align-items: center;
 }
 
+.brand-box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start
+
+}
+
+.brand-subtitle {
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.heading-jumbo {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 64px;
+    line-height: 70px;
+    text-transform: none;
+    font-weight: 200;
+}
+
+.container-fluid {
+    padding: 2% 15%;
+}
 
 #first{
-    padding-top: 10rem;
+    padding-top: 10%;
     text-align: left;
 }
 
+.white-section {
+    background-color: rgb(247, 247, 247);
+}
 
 .btn {
+    text-align: center;
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
     border-radius: 0;
     font-family: 'Courier New';
     font-weight: bold;
     color: #000000;
-    height: 30px;
     background: #c4c4c4;
-    padding: 10px 20px 10px;
+    padding: 10px 20px;
     border: outset 4px;
     border-color: rgb(255, 255, 255) rgb(128, 128, 128) rgb(128, 128, 128) rgb(255, 255, 255);
     text-decoration: none;
 }
 
 .btn:hover {
-    font-family: 'UnifrakturMaguntia', cursive;
+    /* font-family: 'UnifrakturMaguntia', cursive; */
     background: #9D9D9D;
 }
 
@@ -62,4 +104,15 @@ nav{
 }
 .footer-i {
     margin: 10px;
-  }
+}
+
+a.grey {
+    color: #8f8f8f
+}
+a.grey:hover {
+    color: #6c757d
+}
+
+.jitter:hover{
+    font-family: 'UnifrakturMaguntia', cursive;
+}
