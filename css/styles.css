@@ -17,10 +17,6 @@ body{
     scrollbar-width: none;  /* Firefox */
 }
 
-h1{
-    font-weight: 200;
-}
-
 .center {
     text-align: center;
 }
@@ -74,6 +70,10 @@ nav {
 #first{
     padding-top: 2%;
     text-align: left;
+}
+
+.first-text{
+    margin-top: 1.3rem;
 }
 
 .white-section {
