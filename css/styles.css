@@ -35,7 +35,7 @@ nav {
 }
 .nav-item {
     font-weight: 100;
-    width: 130px;
+    padding: 0 18px;
 }
 .navbar-toggler {
     border: 0;
